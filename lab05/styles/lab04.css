@@ -1,0 +1,71 @@
+/*
+
+filename: lab04.css
+
+author: Le Ngoc Minh Trang
+
+created: 10/4/2025
+
+last modified: 10/4/2025
+
+description: no description
+
+*/
+
+
+h1 { 
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+* {
+    color: #2F4F4F;
+}
+
+h2 {
+    color: rgb(0,128,128);
+    font-size: 1.5rem; 
+    font-weight: bold; 
+}
+
+h1, h2, h3 {
+  font-family: Arial, sans-serif;
+}
+
+table{
+    border: 1px solid black; 
+}
+tr, th, td {
+    border: 1px solid black; 
+}
+
+
+#images {
+    text-align : center;  /* careful: center has US spelling */
+}
+.special {
+          color: darkorange;
+          font-weight:bold;
+}
+
+.month-header{
+    text-align : center;
+}
+nav a {
+          text-decoration: none;
+          padding:0.2em 0.6em;
+          border: 4px solid #ccc;
+} 
+ul.b {
+    list-style-type : square;
+}
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+    border-style: solid;
+}
+
+aside:hover {
+    display: block;
+}
